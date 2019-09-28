@@ -3,19 +3,19 @@
  
  1. Install mssql in ubuntu 18.04
  
- $ sudo su
- $ sudo apt-get update
- $ sudo apt-get upgrade
- $ sudo reboot --> You need restart your pc.
+ <p>$ sudo su</p>
+ <p>$ sudo apt-get update</p>
+ <p>$ sudo apt-get upgrade</p>
+ <p>$ sudo reboot</p> --> You need restart your pc.
  ...
- $ sudo su
- $ curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
- $ curl curl https://packages.microsoft.com/config/ubuntu/16.04/mssql-server-2017.list | sudo tee /etc/apt/sources.list.d/mssql-server.list
- $ sudo apt-get update
- $ sudo apt-get install -y mssql-server
- $ sudo /opt/mssql/bin/sqlservr-setup
+ <p>$ sudo su</p>
+ <p>$ curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -</p>
+ <p>$ curl curl https://packages.microsoft.com/config/ubuntu/16.04/mssql-server-2017.list | sudo tee /etc/apt/sources.list.d/mssql-server.list</p>
+ <p>$ sudo apt-get update</p>
+ <p>$ sudo apt-get install -y mssql-server</p>
+ <p>$ sudo /opt/mssql/bin/sqlservr-setup</p>
  
- 2. If you want verified the installation, you can use the next command:
- $ systemctl status mssql-server.service
+ <p>2. If you want verified the installation, you can use the next command:</p>
+ <p>$ systemctl status mssql-server.service</p>
  
  
