@@ -17,4 +17,7 @@
  
  <p>2. If you want verified the installation, you can use the next command:</p>
  <p>$ systemctl status mssql-server.service</p>
- ![alt text](https://raw.githubusercontent.com/gventuraagramonte/python-connect-with-mssql-from-ubuntu/master/1.PNG)
+
+The rest of the content is on the wiki: https://github.com/gventuraagramonte/python-connect-with-mssql-from-ubuntu/wiki
+
+If you like this guide: Follow me: https://twitter.com/gventuraAG
